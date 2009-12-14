@@ -8,3 +8,7 @@ __DATA__
 HIROSE Masaaki
 hirose31 _at_ gmail.com
 Net::IP::Match::Trie
+CIDR
+CIDRS
+CIDRs
+XS
