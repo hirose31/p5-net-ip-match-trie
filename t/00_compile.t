@@ -1,4 +1,6 @@
 use strict;
-use Test::More tests => 1;
+use Test::More;
 
 BEGIN { use_ok 'Net::IP::Match::Trie' }
+
+done_testing;

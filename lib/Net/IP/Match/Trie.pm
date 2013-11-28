@@ -1,10 +1,10 @@
-# -*- mode: coding: utf-8; -*-
 package Net::IP::Match::Trie;
 
 use strict;
 use warnings;
+use 5.008_005;
 
-our $VERSION = '0.01_01';
+our $VERSION = '1.00';
 
 sub import {
     my $class = shift;
@@ -20,9 +20,17 @@ sub import {
 }
 
 1;
+
 __END__
 
 =encoding utf-8
+
+=begin html
+
+<a href="https://travis-ci.org/hirose31/Net-IP-Match-Trie"><img src="https://travis-ci.org/hirose31/Net-IP-Match-Trie.png?branch=master" alt="Build Status" /></a>
+<a href="https://coveralls.io/r/hirose31/Net-IP-Match-Trie?branch=master"><img src="https://coveralls.io/repos/hirose31/Net-IP-Match-Trie/badge.png?branch=master" alt="Coverage Status" /></a>
+
+=end html
 
 =head1 NAME
 
@@ -71,11 +79,11 @@ return "LABEL" if IP matched registered CIDRs. otherwise return "".
 
 =head1 AUTHOR
 
-HIROSE Masaaki E<lt>hirose31 _at_ gmail.comE<gt>
+HIROSE Masaaki E<lt>hirose31@gmail.comE<gt>
 
 =head1 REPOSITORY
 
-L<http://github.com/hirose31/p5-net-ip-match-trie/tree/master>
+L<https://github.com/hirose31/p5-net-ip-match-trie>
 
   git clone git://github.com/hirose31/p5-net-ip-match-trie.git
 
@@ -83,9 +91,11 @@ patches and collaborators are welcome.
 
 =head1 SEE ALSO
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT
 
-Copyright HIROSE Masaaki 2009-
+Copyright HIROSE Masaaki
+
+=head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

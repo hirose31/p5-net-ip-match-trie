@@ -3,10 +3,11 @@ package Net::IP::Match::Trie;
 
 use strict;
 use warnings;
+no warnings qw(redefine);
 
 use Socket qw(inet_aton);
 
-our $VERSION = '0.01_01';
+our $VERSION = '1.00';
 
 our $CIDR_TABLE_BITS = 8;
 our $CIDR_TABLE_SIZE = (1 << $CIDR_TABLE_BITS);
