@@ -28,7 +28,7 @@ __END__
 =begin html
 
 <a href="https://travis-ci.org/hirose31/p5-net-ip-match-trie"><img src="https://travis-ci.org/hirose31/p5-net-ip-match-trie.png?branch=master" alt="Build Status" /></a>
-<a href="https://coveralls.io/r/hirose31/p5-net-ip-match-trie?branch=master'><img src='https://coveralls.io/repos/hirose31/p5-net-ip-match-trie/badge.png?branch=master' alt='Coverage Status" /></a>
+<a href="https://coveralls.io/r/hirose31/p5-net-ip-match-trie?branch=master"><img src="https://coveralls.io/repos/hirose31/p5-net-ip-match-trie/badge.png?branch=master" alt="Coverage Status" /></a>
 
 =end html
 
