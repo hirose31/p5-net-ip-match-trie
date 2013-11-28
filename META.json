@@ -51,6 +51,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hirose31/p5-net-ip-match-trie/issues"
+      },
+      "homepage" : "https://github.com/hirose31/p5-net-ip-match-trie",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/hirose31/p5-net-ip-match-trie.git",
+         "web" : "https://github.com/hirose31/p5-net-ip-match-trie"
+      }
+   },
    "version" : "1.00"
 }
 
