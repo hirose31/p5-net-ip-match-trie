@@ -4,7 +4,7 @@
       "HIROSE Masaaki <hirose31@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.4, Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.035, Dist::Milla version v1.0.15, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -24,14 +24,23 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build::Tiny" : "0.022"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.030"
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "App::scan_prereqs_cpanfile" : "0.09",
+            "Dist::Milla" : "v1.0.15",
+            "Pod::Wordlist" : "0",
+            "Test::Fixme" : "0",
+            "Test::Kwalitee" : "0",
+            "Test::Kwalitee::Extra" : "0",
+            "Test::More" : "0.96",
+            "Test::Pod" : "0",
+            "Test::Spelling" : "0.12",
+            "Test::Vars" : "0"
          }
       },
       "runtime" : {
@@ -45,9 +54,15 @@
             "FindBin" : "0",
             "Path::Class" : "0",
             "Test::Base" : "0",
-            "Test::More" : "0.88",
+            "Test::More" : "0.96",
             "Test::Requires" : "0"
          }
+      }
+   },
+   "provides" : {
+      "Net::IP::Match::Trie" : {
+         "file" : "lib/Net/IP/Match/Trie.pm",
+         "version" : "1.00"
       }
    },
    "release_status" : "stable",

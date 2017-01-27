@@ -1,5 +1,7 @@
-<a href="https://travis-ci.org/hirose31/p5-net-ip-match-trie"><img src="https://travis-ci.org/hirose31/p5-net-ip-match-trie.png?branch=master" alt="Build Status" /></a>
-<a href="https://coveralls.io/r/hirose31/p5-net-ip-match-trie?branch=master"><img src="https://coveralls.io/repos/hirose31/p5-net-ip-match-trie/badge.png?branch=master" alt="Coverage Status" /></a>
+<div>
+    <a href="https://travis-ci.org/hirose31/p5-net-ip-match-trie"><img src="https://travis-ci.org/hirose31/p5-net-ip-match-trie.png?branch=master" alt="Build Status" /></a>
+    <a href="https://coveralls.io/r/hirose31/p5-net-ip-match-trie?branch=master"><img src="https://coveralls.io/repos/hirose31/p5-net-ip-match-trie/badge.png?branch=master" alt="Coverage Status" /></a>
+</div>
 
 # NAME
 
@@ -29,14 +31,14 @@ This module is useful for once initialization and a bunch of lookups model such 
 
 # METHODS
 
-- __add__(LABEL => CIDRS)
+- **add**(LABEL => CIDRS)
 
         LABEL: Str
         CIDRS: ArrayRef
 
     register CIDRs to internal data tree labeled as "LABEL".
 
-- __match\_ip__(IP)
+- **match\_ip**(IP)
 
         IP: Str
 

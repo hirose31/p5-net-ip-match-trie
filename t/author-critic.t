@@ -1,3 +1,4 @@
+#!perl
 
 BEGIN {
   unless ($ENV{AUTHOR_TESTING}) {
